@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>adder</title>
+      <link href="/2023/06/05/zynq7020-ov5640-hdmi/"/>
+      <url>/2023/06/05/zynq7020-ov5640-hdmi/</url>
+      
+        <content type="html"><![CDATA[<h1 id="黑金AX7020-OV5640-HDMI-开发"><a href="#黑金AX7020-OV5640-HDMI-开发" class="headerlink" title="黑金AX7020 OV5640 HDMI 开发"></a>黑金AX7020 OV5640 HDMI 开发</h1><h5 id="任务：基于以下硬件平台和现有工程模板，使得ov5640图像在hdmi显示器上显示。"><a href="#任务：基于以下硬件平台和现有工程模板，使得ov5640图像在hdmi显示器上显示。" class="headerlink" title="任务：基于以下硬件平台和现有工程模板，使得ov5640图像在hdmi显示器上显示。"></a>任务：基于以下硬件平台和现有工程模板，使得ov5640图像在hdmi显示器上显示。</h5><h5 id="硬件：-黑金AX7020-OV5640-HDMI-黑金-an122-40针转接板"><a href="#硬件：-黑金AX7020-OV5640-HDMI-黑金-an122-40针转接板" class="headerlink" title="硬件： 黑金AX7020 OV5640 HDMI   黑金 an122 40针转接板"></a>硬件： 黑金AX7020 OV5640 HDMI   黑金 an122 40针转接板</h5><h5 id="软件：-黑金-”22-ov5640-single“工程代码"><a href="#软件：-黑金-”22-ov5640-single“工程代码" class="headerlink" title="软件： 黑金 ”22_ov5640_single“工程代码"></a>软件： 黑金 ”22_ov5640_single“工程代码</h5><p>问题：</p><ol><li><p>an122 40针的转接板是适配ov5642 开发板。 使用单目的DVP ov5640 +AN122 转接板 需要重新绑定引脚</p></li><li><p>OV5640 只有8个数据口，ov5642 有10 个数据口 ， 但ov5642 工程中只使用了  [9:2]  为数据</p></li><li><p>ov5640  的pdwn引脚为低功耗引脚，拉低</p></li><li><p>ov5640 需要24M时钟， 时钟信号接在 ov5640 的XCLK引脚。</p></li></ol><p>​    </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数字ic </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数字ic </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo图片显示（二）</title>
       <link href="/2023/05/26/hexo-typora-photo/"/>
       <url>/2023/05/26/hexo-typora-photo/</url>
